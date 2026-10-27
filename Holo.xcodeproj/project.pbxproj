@@ -713,7 +713,6 @@
 				};
 			};
 			buildConfigurationList = 134B2E8657686075B0F07C89 /* Build configuration list for PBXProject "Holo" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -723,18 +722,19 @@
 			mainGroup = 62F9C7F3DED4DD60C3DC23FD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
+			productRefGroup = 96959561F12B456F3AEE3CD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A0864AD575062AF8919E457 /* Holo */,
-				9F16F8CF8BEC21D76AE06244 /* HoloAppTests */,
 				1F9C3C592CD8E0DBC05B2A8E /* HoloCore */,
+				9A0864AD575062AF8919E457 /* Holo */,
 				F9C864127BCDDE6703522B72 /* HoloCoreTests */,
-				88F0985131DDF5B7524F984A /* HoloReplay */,
+				9F16F8CF8BEC21D76AE06244 /* HoloAppTests */,
+				05EF2198DDEBF8D87DCECB3C /* HoloSoak */,
 				B9D38D63D21C4C9ECA31E7D7 /* HoloReplaySupport */,
+				88F0985131DDF5B7524F984A /* HoloReplay */,
 				AE7456AB0A1CAE6A83B30EF7 /* HoloReplayTests */,
 				2A0913028CBDE5ED39D59063 /* HoloRouteCheck */,
-				05EF2198DDEBF8D87DCECB3C /* HoloSoak */,
 			);
 		};
 /* End PBXProject section */

@@ -8,7 +8,7 @@ git checkout -q baptiste && git rebase -q main
 xcodegen generate >/dev/null
 xcodebuild -project Holo.xcodeproj -scheme Holo -configuration Release \
   -derivedDataPath ~/Library/Developer/HoloDerived \
-  CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="AgentIsland Dev" DEVELOPMENT_TEAM="" \
+  CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY="AgentIsland Dev" DEVELOPMENT_TEAM="" ENABLE_HARDENED_RUNTIME=NO \
   build -quiet
 osascript -e 'quit app "Holo"' 2>/dev/null || true
 rm -rf /Applications/Holo.app
